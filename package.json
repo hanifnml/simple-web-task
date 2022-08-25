@@ -1,0 +1,24 @@
+{
+  "name": "web-task",
+  "version": "1.0.0",
+  "description": "Simple web to complete class \"Menjadi Google Cloud Engineer\" in Dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanifnml/simple-web-task.git"
+  },
+  "author": "hanifnml",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanifnml/simple-web-task/issues"
+  },
+  "homepage": "https://github.com/hanifnml/simple-web-task#readme",
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "http-server": "^14.1.1"
+  }
+}
