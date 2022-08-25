@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+header {
+  color: white;
+}
+
+.top-part {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(77, 123, 221);
+  text-align: center;
+  padding-top: 0.005mm;
+}
+
+.photo-part {
+  text-align: center;
+  background-color: rgb(99, 94, 94);
+  height: 400px;
+}
+
+img {
+  margin-top: 50px;
+  height: 5cm;
+  width: 5cm;
+  border-radius: 50%;
+}
+
+main {
+  margin: 2em 4em;
+}
+
+.my-story {
+  text-align: justify;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  padding: 0;
+  border-top: 2px solid #ccc;
+  margin: 1em 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+}
+
+footer img {
+  margin: -15px 20px 20px 5px;
+  width: 40px;
+  height: 40px;
+}
