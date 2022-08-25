@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <title>Profile: John Doe</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
       <h2>My Personal Information</h2>
     </div>
     <div class="photo-part">
-      <img src="profile-photo.jpeg" alt="profile-photo">
+      <img src="/profile-photo.jpeg" alt="profile-photo">
       <h3>John Doe</h3>
       <p>Junior Product Manager</p>
     </div>
@@ -43,8 +43,8 @@
       <h4>Find Me In!</h4>
     </div>
     <div class="socmed">
-      <a href="https://github.com/hanifnml"><img src="github.png" alt="github"></a>
-      <a href="https://www.linkedin.com/in/hanif-nurmilasari/"><img src="linkedin.png" alt="linkedin"></a>
+      <a href="https://github.com/hanifnml"><img src="/github.png" alt="github"></a>
+      <a href="https://www.linkedin.com/in/hanif-nurmilasari/"><img src="/linkedin.png" alt="linkedin"></a>
     </div>
   </footer>
 </body>
